@@ -12,19 +12,19 @@ const changeFontBtn = document.getElementById("change-font-btn");
 
 //EVENT LISTERNER SUBMIT-BTN
 submitBtn.addEventListener('click', () => {
-    middleSection.textContent = inputField.value.toUpperCase();
+    middleSection.textContent = inputField.value;
     topSection.style.backgroundColor = colorField.value;
     bottomSection.style.backgroundColor = colorField.value;
     
 });
 
 //EVENT LISTERNER SUBMIT-PRO-BTN
-submitProBtn.addEventListener('click', () =>{
+submitProBtn.addEventListener('click', () => {
     pronouns.textContent = pronounField.value;
 });
 
 //EVENT LISTENER CHANGE FONT
-changeFontBtn.addEventListener('click', ()=>{
+changeFontBtn.addEventListener('click', ()=> {
     middleSection.style.fontFamily = "Impact,Charcoal,sans-serif";
 });
 
